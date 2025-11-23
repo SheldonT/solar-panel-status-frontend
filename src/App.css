@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.processFlow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.solarImage {
+  width: 25%;
+}
+
+.batteryImage {
+  width: 10%;
+}
+
+.sensors {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+}
