@@ -15,10 +15,21 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
+  margin: 5% 15% 0 15%;
+}
+
+.wire {
+  width: 10%;
+  border-style: solid;
+  margin-bottom: 5%;
 }
 
 .solarImage {
   width: 25%;
+}
+
+.chargerImage {
+  width: 5%;
 }
 
 .batteryImage {
