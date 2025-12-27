@@ -28,8 +28,8 @@ function App() {
         <div className="wire"></div>
 
         <div className="sensors">
-          <OutputField title={"Voltage"} event={"battery_voltage"} serialCommand={"V,1;"} hihi={20} hi={14.5} lo={10} loLo={5} />
-          <OutputField title={"Current"} event={"battery_current"} serialCommand={"C,1;"} hihi={20} hi={9} lo={0.1} lolo={0} />
+          <OutputField title={"Voltage"} event={"battery_voltage"} serialCommand={"B,1;"} hihi={20} hi={14.5} lo={10} loLo={5} />
+          <OutputField title={"Current"} event={"battery_current"} serialCommand={"S,1;"} hihi={50} hi={40} lo={0.1} lolo={0} />
         </div>
         <div style={{width: "10%", borderStyle: "solid", marginBottom: "5%"}}></div>
         <img className="batteryImage" src={battery} alt="battery" />

@@ -12,8 +12,7 @@ function OutputField({ title, event, serialCommand, hihi=30, hi=20, lo=10, lolo=
   useEffect(() => {
 
     const handler = (data) => {
-      console.log(data);
-      setValue(data);
+      setValue(Number(data).toFixed(2));
     }
 
     socket.on(event, handler);
